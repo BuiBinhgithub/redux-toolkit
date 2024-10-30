@@ -1,7 +1,9 @@
+import { Blog } from 'pages'
+
 function App() {
   return (
     <div className='App'>
-      <header className='App-header'>dasd</header>
+      <Blog />
     </div>
   )
 }

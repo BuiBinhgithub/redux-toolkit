@@ -14,7 +14,7 @@ export const Blog = () => {
   }, [])
   return (
     <div className='p-5'>
-      <Tabs type='card' defaultActiveKey={tabs} onChange={handleChageTab}>
+      <Tabs defaultActiveKey={tabs} onChange={handleChageTab}>
         <TabPane tab='Create Post' key={TabsEnum.POST}>
           <CreatePost />
         </TabPane>
